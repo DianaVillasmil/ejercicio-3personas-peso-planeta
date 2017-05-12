@@ -6,3 +6,8 @@ function calculoPeso(){
     var indicePlaneta = parseInt(document.getElementById("planetas").value);
     var planeta = planetas[indicePlaneta];
     var gravedad = gravedades[indicePlaneta];
+
+	alert("Tu peso en " + planeta + " es de: " +((peso * gravedad) / gravedades[2]).toFixed(3) + " Kg");
+	document.getElementById('peso').value = "";
+
+}

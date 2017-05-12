@@ -1,1 +1,24 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Tu peso en los planetas del sistema solar</title>
+</head>
+<body style="text-align: center;">
+    <h1>Calcular tu peso</h1>
+    <p>Introduce tu peso en el planeta tierra y escoje el planeta en el que deseas saber tu peso.</p>
+    <input type="text" name="peso" id="peso">
+    <select id="planetas" name="planetas">
+        <option value="0">Mercurio</option>
+        <option value="1">Venus</option>
+        <option value="3">Marte</option>
+        <option value="4">Júpiter</option>
+        <option value="5">Saturno</option>
+        <option value="6">Urano</option>
+        <option value="7">Neptuno</option>
+        <option value="8">Plutón</option>
+    </select>
+    <button type="button" onclick="calculoPeso(); return false">Calcular</button>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
